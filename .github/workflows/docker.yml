@@ -15,7 +15,7 @@ jobs:
 
     - name: Pull Docker Image
       run: |
-        docker pull radhika26/ubuntu
+        docker pull ubuntu:latest
 
     - name: Display Docker Image
       run: |
